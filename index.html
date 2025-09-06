@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="ASEAT: An Assertion-Fault Attribution Benchmark for Software Testing - Anonymous Authors">
+  <meta name="description" content="ASEAT is a benchmark and evaluation framework for attributing assertion failures to code or test defects, built on Defects4J with focal code, tests, and logs.">
+  <meta name="keywords" content="assertion failure attribution, software testing, large language models, benchmark, Defects4J, Java, debugging, fault diagnosis, program analysis">
+  <meta name="author" content="Anonymous Authors">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Anonymous Research">
+  <meta property="og:title" content="ASEAT: An Assertion-Fault Attribution Benchmark for Software Testing">
+  <meta property="og:description" content="ASEAT is a benchmark and evaluation framework for attributing assertion failures to code or test defects, built on Defects4J with focal code, tests, and logs.">
+  <meta property="og:url" content="https://example.com/aseat">
+  <meta property="og:image" content="https://example.com/aseat/static/images/social_preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="ASEAT - Research Preview">
+  <meta property="article:published_time" content="2025-01-01T00:00:00.000Z">
+  <meta property="article:author" content="Anonymous">
+  <meta property="article:section" content="Research">
+  <meta property="article:tag" content="software testing">
+  <meta property="article:tag" content="assertion failure attribution">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@anonymized">
+  <meta name="twitter:creator" content="@anonymized">
+  <meta name="twitter:title" content="ASEAT: An Assertion-Fault Attribution Benchmark for Software Testing">
+  <meta name="twitter:description" content="ASEAT is a benchmark and evaluation framework for attributing assertion failures to code or test defects, built on Defects4J with focal code, tests, and logs.">
+  <meta name="twitter:image" content="https://example.com/aseat/static/images/social_preview.png">
+  <meta name="twitter:image:alt" content="ASEAT - Research Preview">
+
+  <!-- Academic/Research Specific -->
+  <meta name="citation_title" content="ASEAT: An Assertion-Fault Attribution Benchmark for Software Testing">
+  <meta name="citation_author" content="Anonymous">
+  <meta name="citation_publication_date" content="2025">
+  <meta name="citation_conference_title" content="Under Review">
+  <meta name="citation_pdf_url" content="https://example.com/aseat/static/pdfs/ASEAT.pdf">
+
+  <meta name="theme-color" content="#2563eb">
+  <meta name="msapplication-TileColor" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://documentcloud.adobe.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+  <title>ASEAT: An Assertion-Fault Attribution Benchmark for Software Testing - Anonymous Authors | Academic Research</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- JS -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
+  <script defer src="static/js/index.js"></script>
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "ASEAT: An Assertion-Fault Attribution Benchmark for Software Testing",
+    "description": "ASEAT is a benchmark and evaluation framework for attributing assertion failures to code or test defects, built on Defects4J with focal code, tests, and logs.",
+    "author": [{
+      "@type": "Person",
+      "name": "Anonymous",
+      "affiliation": {"@type": "Organization","name": "Anonymous Institution"}
+    }],
+    "datePublished": "2025-01-01",
+    "publisher": {"@type": "Organization","name": "Under Review"},
+    "url": "https://example.com/aseat",
+    "image": "https://example.com/aseat/static/images/social_preview.png",
+    "keywords": ["assertion failure attribution","software testing","large language models","benchmark","Defects4J","Java","debugging","fault diagnosis","program analysis"],
+    "abstract": "Assertion failures are one of the most common indicators of software defects. However, determining whether such failures are caused by program source code defects or by faulty test cases remains a challenging and underexplored problem. Although recent advances in large language models (LLMs) show promise for automated debugging, there is currently no standardized benchmark for systematically evaluating their capability in assertion failure attribution. In this paper, we introduce ASEAT, a new benchmark dataset and evaluation framework for attribution of assertion failures. Built upon Defects4J, ASEAT extends existing resources with method-level focal code, defect test cases, and corresponding execution fail logs. We design two evaluation tasks: (1) binary attribution of a single failure case, (2) sequential classification of mixed failure cases, and an ablation experiment. Experiments with state-of-the-art LLMs, including GPT-4o, DeepSeek-V3, Qwen3-235B, and the reasoning-augmented DeepSeek-R1, demonstrated that the assertion-misattribution task poses a substantive challenge for large language models; across the three evaluated tasks, the strongest performance is attained by reasoning-augmented models, which indicates that explicit reasoning capabilities are critical in settings requiring a precise understanding of program logic.",
+    "isAccessibleForFree": true,
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "mainEntity": {"@type": "WebPage","@id": "https://example.com/aseat"}
+  }
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"Anonymous Institution","url":"https://example.com","logo":"https://example.com/aseat/static/images/favicon.ico","sameAs":[]}
+  </script>
+</head>
+<body>
+
+  <!-- Scroll to Top -->
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- More Works (anonymized) -->
+  <div class="more-works-container">
+    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works">
+      <i class="fas fa-flask"></i> More Works <i class="fas fa-chevron-down dropdown-arrow"></i>
+    </button>
+    <div class="more-works-dropdown" id="moreWorksDropdown">
+      <div class="dropdown-header">
+        <h4>Related Anonymized Works</h4>
+        <button class="close-btn" onclick="toggleMoreWorks()"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="works-list">
+        <a href="#" class="work-item" target="_blank" rel="noopener noreferrer">
+          <div class="work-info"><h5>Work A (Anonymized)</h5><p>Benchmarking LLMs for program analysis tasks.</p><span class="work-venue">Under Review 2025</span></div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <a href="#" class="work-item" target="_blank" rel="noopener noreferrer">
+          <div class="work-info"><h5>Work B (Anonymized)</h5><p>Reasoning-augmented LLMs for fault diagnosis.</p><span class="work-venue">Preprint 2025</span></div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <a href="#" class="work-item" target="_blank" rel="noopener noreferrer">
+          <div class="work-info"><h5>Work C (Anonymized)</h5><p>Mutation frameworks for test robustness evaluation.</p><span class="work-venue">Workshop 2024</span></div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <h1 class="title is-1 publication-title">ASEAT: An Assertion-Fault Attribution Benchmark for Software Testing</h1>
+              <div class="column has-text-centered">
+                <div class="publication-links">
+                  <a href="https://huggingface.co/datasets/ASEAT/ASEAT/tree/main/" class="button is-dark is-rounded" target="_blank">📦 Dataset</a>
+                  <a href="https://anonymous.4open.science/r/ASEA_BENCHMARK-001D/" class="button is-dark is-rounded" target="_blank">💻 Code</a>
+                  </span>
+                  <!-- arXiv/Code intentionally omitted -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Abstract -->
+    <section class="section hero is-light">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Abstract</h2>
+            <div class="content has-text-justified">
+              <p>Assertion failures are one of the most common indicators of software defects. However, determining whether such failures are caused by program source code defects or by faulty test cases remains a challenging and underexplored problem. Although recent advances in large language models (LLMs) show promise for automated debugging, there is currently no standardized benchmark for systematically evaluating their capability in assertion failure attribution.</p>
+              <p>We introduce ASEAT, a new benchmark dataset and evaluation framework for attribution of assertion failures. Built upon Defects4J, ASEAT extends existing resources with method-level focal code, defect test cases, and corresponding execution fail logs. We design two evaluation tasks—binary attribution of a single failure case and sequential classification of mixed failure cases—and an ablation experiment. Experiments with GPT-4o, DeepSeek-V3, Qwen3-235B, and DeepSeek-R1 show that explicit reasoning capabilities are critical in settings requiring a precise understanding of program logic.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benchmark Overview -->
+    <section class="section">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3">Benchmark Overview</h2>
+        <div class="content has-text-justified">
+          <ul>
+            <li>Refined artifacts: buggy/fixed focal methods, condensed context, failure-inducing original tests, automatically generated defect tests, runtime failure messages.</li>
+            <li>Task definitions: lightweight classification tasks simulating realistic debugging workflows.</li>
+            <li>Extensible mutation framework: reproducible scripts for generating additional defect tests.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section hero is-light">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3">Dataset Construction</h2>
+        <div class="content has-text-justified">
+          <p>The pipeline consists of preliminary data collection, defect-test generation, and execution/validation. Tests are retained only if they compile and produce failing assertions against fixed program versions.</p>
+        </div>
+        <!-- 1. 保留 16:9 容器，但控制容器整体宽度（避免过宽） -->
+        <figure class="image" style="max-width: 100%; margin: 0 auto;">
+          <!-- 2. 图片去掉固定宽高，用 CSS 强制保持比例 -->
+          <img 
+            src="static/images/flowchart.png" 
+            alt="ASEAT construction pipeline" 
+            loading="lazy"
+            style="object-fit: contain; width: 100%; height: 100%;" 
+          >
+        </figure>
+      </div>
+    </section>
+
+    <!-- Dataset statistics table -->
+    <section class="section">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3">Dataset Statistics</h2>
+        <div class="table-container">
+          <table class="table is-fullwidth is-striped is-hoverable">
+            <thead>
+              <tr>
+                <th>Metric</th><th>Total</th><th>Average</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Defects</td><td>247</td><td>15.4</td></tr>
+              <tr><td>Source Methods</td><td>427</td><td>26.7</td></tr>
+              <tr><td>Test Methods</td><td>555</td><td>34.7</td></tr>
+              <tr><td>Source LOC</td><td>240,237</td><td>15,015</td></tr>
+              <tr><td>Slim Source LOC (per defect)</td><td>12,329</td><td>770.6</td></tr>
+              <tr><td>Cyclomatic Complexity (sum)</td><td>2,663</td><td>166.4</td></tr>
+              <tr><td>Test LOC</td><td>7,162</td><td>447.6</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="has-text-grey">Covers 16 Java projects with diverse functionality and moderate-to-high complexity.</p>
+      </div>
+    </section>
+
+    <!-- Evaluation Tasks -->
+    <section class="section hero is-light">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3">Evaluation Tasks</h2>
+        <div class="content has-text-justified">
+          <p><strong>Task 1: Binary classification.</strong> Given one failing test, decide whether the failure is caused by a code defect (positive) or a test defect. Metrics: Accuracy, Precision, Recall, F1; type-wise accuracy for rule-based vs LLM-generated defects.</p>
+          <p><strong>Task 2: Sequence classification.</strong> Present a shuffled pair of failures (one code defect and one test defect); classify each independently. Metrics: Per-scenario Accuracy, Pairwise Accuracy, type-wise accuracy.</p>
+          <p><strong>Task 3: Ablation.</strong> Repeat Task 1 without runtime logs, testing pre-execution attribution using static context only.</p>
+          <p>Scale: 247 code defects; for Task 1, we construct 247×3 instances (1:2 positive:negative). For Task 2, each code defect is paired with two test defects (rule-based and LLM-generated), yielding 247×2 instances.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experimental setup -->
+    <section class="section hero is-light">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3">Experimental Setup</h2>
+        <div class="content has-text-justified">
+          <ul>
+            <li>Models: GPT-4o, DeepSeek-V3, Qwen3-235B, DeepSeek-R1.</li>
+            <li>Zero-shot; identical context per case (focal code + failure info); temperature 0; no fine-tuning/few-shot.</li>
+            <li>Focus: intrinsic capability for assertion-fault attribution.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results tables -->
+    <section class="section">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3">Results</h2>
+
+        <h3 class="title is-4">Task 1: Binary Classification</h3>
+        <div class="table-container">
+          <table class="table is-fullwidth is-striped is-hoverable">
+            <thead>
+              <tr><th></th><th>GPT-4o</th><th>DS-V3</th><th>Qwen3</th><th>DS-R1</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Precision</td><td>66.17%</td><td>37.85%</td><td>50.00%</td><td><strong>68.87%</strong></td></tr>
+              <tr><td>Recall</td><td>53.85%</td><td><strong>97.17%</strong></td><td>87.45%</td><td>84.21%</td></tr>
+              <tr><td>F1</td><td>59.38%</td><td>54.48%</td><td>63.62%</td><td><strong>75.77%</strong></td></tr>
+              <tr><td>Accuracy</td><td>75.44%</td><td>45.88%</td><td>66.67%</td><td><strong>82.05%</strong></td></tr>
+              <tr><td>Type 1 Acc. (rule-based)</td><td><strong>85.83%</strong></td><td>17.81%</td><td>55.06%</td><td>79.35%</td></tr>
+              <tr><td>Type 2 Acc. (LLM-generated)</td><td><strong>86.64%</strong></td><td>22.67%</td><td>57.49%</td><td>82.59%</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3 class="title is-4">Task 2: Sequence Classification</h3>
+        <div class="table-container">
+          <table class="table is-fullwidth is-striped is-hoverable">
+            <thead>
+              <tr><th></th><th>GPT-4o</th><th>DS-V3</th><th>Qwen3</th><th>DS-R1</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Per-scenario Accuracy</td><td>78.74%</td><td>68.12%</td><td>77.94%</td><td><strong>80.97%</strong></td></tr>
+              <tr><td>Pairwise Accuracy</td><td>60.73%</td><td>66.80%</td><td>72.27%</td><td><strong>74.90%</strong></td></tr>
+              <tr><td>Type 1 Acc.</td><td>76.72%</td><td>71.46%</td><td><strong>81.58%</strong></td><td>80.97%</td></tr>
+              <tr><td>Type 2 Acc.</td><td>80.77%</td><td>64.78%</td><td>74.29%</td><td><strong>80.97%</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3 class="title is-4">Task 3: Ablation (No Runtime Logs)</h3>
+        <div class="table-container">
+          <table class="table is-fullwidth is-striped is-hoverable">
+            <thead>
+              <tr><th></th><th>GPT-4o</th><th>DS-V3</th><th>Qwen3</th><th>DS-R1</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Precision</td><td>51.24%</td><td>37.12%</td><td>52.44%</td><td><strong>64.29%</strong></td></tr>
+              <tr><td>Recall</td><td>41.70%</td><td><strong>93.93%</strong></td><td>65.18%</td><td>76.52%</td></tr>
+              <tr><td>F1</td><td>45.98%</td><td>53.21%</td><td>58.12%</td><td><strong>69.87%</strong></td></tr>
+              <tr><td>Accuracy</td><td>67.34%</td><td>44.94%</td><td>68.69%</td><td><strong>78.00%</strong></td></tr>
+              <tr><td>Type 1 Acc.</td><td><strong>76.52%</strong></td><td>12.55%</td><td>67.61%</td><td>74.49%</td></tr>
+              <tr><td>Type 2 Acc.</td><td><strong>83.81%</strong></td><td>28.34%</td><td>73.28%</td><td>82.99%</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Discussion -->
+    <section class="section hero is-light">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3">Discussion</h2>
+        <div class="content has-text-justified">
+          <ul>
+            <li><strong>Reasoning improves robustness:</strong> DeepSeek-R1 consistently leads across settings, indicating explicit reasoning stabilizes attribution under incomplete information.</li>
+            <li><strong>Balanced trade-offs:</strong> GPT-4o offers balanced precision–recall for practical deployment.</li>
+            <li><strong>Bias in non-reasoning models:</strong> DeepSeek-V3 over-predicts code defects—high recall, low precision.</li>
+            <li><strong>LLM-generated defects slightly easier:</strong> Type 2 often shows higher accuracy than rule-based Type 1.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Conclusion -->
+    <section class="section">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3">Conclusion</h2>
+        <div class="content has-text-justified">
+          <p>We present ASEAT, a benchmark for assertion failure attribution with LLMs, extending Defects4J with focal code, defect tests, and failure logs. Two core tasks and an ablation examine attribution under realistic and constrained settings. Results show that reasoning-augmented architectures are more robust for precise failure interpretation, motivating deeper integration of explicit reasoning in LLM-based testing and debugging.</p>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- BibTeX -->
+    <section class="section" id="BibTeX">
+      <div class="container is-max-desktop content">
+        <div class="bibtex-header">
+          <h2 class="title">BibTeX</h2>
+          <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+            <i class="fas fa-copy"></i><span class="copy-text">Copy</span>
+          </button>
+        </div>
+<pre id="bibtex-code"><code>@article{ASEAT2025,
+  title   = {ASEAT: An Assertion-Fault Attribution Benchmark for Software Testing},
+  author  = {Anonymous},
+  journal = {Under Review},
+  year    = {2025},
+  url     = {https://example.com/aseat}
+}</code></pre>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="content">
+              <p>
+                This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank" rel="noopener noreferrer">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank" rel="noopener noreferrer">Nerfies</a> project page.
+                You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br>
+                This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+</body>
+</html>
